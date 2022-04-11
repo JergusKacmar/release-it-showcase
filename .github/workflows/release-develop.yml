@@ -18,4 +18,4 @@ jobs:
         with:
           node-version: "16.x"
       - run: npm install
-      - run: release-it --ci --config=.release-it.json
+      - run: npx release-it --ci --config=.release-it.json
