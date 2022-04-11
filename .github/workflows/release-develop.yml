@@ -18,4 +18,6 @@ jobs:
         with:
           node-version: "16.x"
       - run: npm install
-      - run: npx release-it --ci --config=.release-it.json
+      - run: npm run release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
