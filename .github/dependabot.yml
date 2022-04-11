@@ -1,0 +1,21 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: weekly
+    day: monday
+    time: "08:00"
+    timezone: Europe/Prague
+  open-pull-requests-limit: 20
+  target-branch: develop
+  reviewers:
+  - krivanek06
+  - JergusKacmar
+  - ginkapetrova
+  assignees:
+  - krivanek06
+  - JergusKacmar
+  - ginkapetrova
+  labels:
+  - dependencies
