@@ -22,5 +22,5 @@ jobs:
         with:
           sentry-cli-rc: ${{ secrets.SENTRY_CLI_RC }}
       - run: npm install
-    - name: release-it
-      uses: TheRealWaldo/release-it@v0.7.2
+      - name: release-it
+        uses: TheRealWaldo/release-it@v0.7.2
