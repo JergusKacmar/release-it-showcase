@@ -20,12 +20,4 @@ jobs:
       - run: npm install
       - name: release-it
         uses: TheRealWaldo/release-it@v0.7.2
-        with:
-          json-opts: >
-            {
-              "github": { "release": true },
-              "git": { "tag": true, "commit": true },
-              "hooks": {
-                "after:bump": ["npx auto-changelog -p"]
-                }
-            }
+
