@@ -25,13 +25,11 @@ jobs:
       - name: release-it
         uses: TheRealWaldo/release-it@v0.7.2
         with:
-        no-increment: true
-        github-token: ${{ secrets.AUTO_PAT }}
-        json-opts: >
-          {
-            "github": { "release": true },
-            "git": { "tag": true, "commit": true },
-            "plugins": {
-               "@release-it/auto-changelog"
+          json-opts: >
+            {
+              "github": { "release": true },
+              "git": { "tag": true, "commit": true },
+              "plugins": {
+                "@release-it/auto-changelog"
+              }
             }
-          }
