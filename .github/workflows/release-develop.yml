@@ -18,9 +18,10 @@ jobs:
         with:
           node-version: "16.x"
       - run: npm install
-      - uses: EndBug/add-and-commit@v7
-        with:
-          default_author: github_actions
+      - name: git config
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
       - run: npm run release
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE_IT }}
