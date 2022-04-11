@@ -24,4 +24,14 @@ jobs:
           echo "::set-output name=config::${JSON//'%'/'%25'}"
       - name: release-it
         uses: TheRealWaldo/release-it@v0.7.2
-          json-opts: ${{fromJson(needs.release.outputs.config)}}
+        with:
+        no-increment: true
+        github-token: ${{ secrets.AUTO_PAT }}
+        json-opts: >
+          {
+            "github": { "release": true },
+            "git": { "tag": true, "commit": true },
+            "plugins": {
+               "@release-it/auto-changelog"
+            }
+          }
