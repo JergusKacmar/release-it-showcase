@@ -24,4 +24,5 @@ jobs:
           echo "::set-output name=config::${JSON//'%'/'%25'}"
       - name: release-it
         uses: TheRealWaldo/release-it@v0.7.2
+        with:  
           json-opts: ${{fromJson(needs.release.outputs.config)}}
