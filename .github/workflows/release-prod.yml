@@ -2,7 +2,7 @@ name: Stage Release It
 
 on:
   push:
-    branches: [develop]
+    branches: [main]
   workflow_dispatch:
 
 jobs:
