@@ -1,6 +1,11 @@
 
 
-# [1.0.0](https://github.com/JergusKacmar/release-it-showcase/compare/0.4.3...1.0.0) (2022-04-12)
+## [1.0.1](https://github.com/JergusKacmar/release-it-showcase/compare/1.0.0...1.0.1) (2022-04-12)
+
+
+### Bug Fixes
+
+* yolo ([7853a93](https://github.com/JergusKacmar/release-it-showcase/commit/7853a93e02dd2f6b6203d8bd0fff8be5881d8ac3))# [1.0.0](https://github.com/JergusKacmar/release-it-showcase/compare/0.4.3...1.0.0) (2022-04-12)
 
 
 ### chore
