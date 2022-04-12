@@ -14,8 +14,8 @@ module.exports = {
     tagAnnotation: "${version}",
     push: true,
     requireCommits: true,
-    changelog:
-      "npx auto-changelog --stdout --commit-limit false -u --template ./changelog.hbs",
+    /* changelog:
+      "npx auto-changelog --stdout --commit-limit false -u --template ./changelog.hbs", */
   },
   github: {
     release: true,
@@ -29,6 +29,7 @@ module.exports = {
     "@release-it/conventional-changelog": {
       preset: "angular",
       infile: "CHANGELOG.md",
+      template: "./changelog.hbs",
     },
   },
 };
