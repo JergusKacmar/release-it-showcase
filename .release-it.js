@@ -2,7 +2,7 @@ module.exports = {
   hooks: {
     /* 'before:init': ['npm test'], */
     // no tests yet, this command would fail
-    /* 'after:bump': ['npx auto-changelog -p'], */
+    "after:bump": ["npx conventional-changelog -p"],
   },
   git: {
     /* requireBranch: 'main', */
@@ -29,7 +29,6 @@ module.exports = {
     "@release-it/conventional-changelog": {
       preset: "angular",
       infile: "CHANGELOG.md",
-      template: "./changelog.hbs",
     },
   },
 };
