@@ -1,6 +1,11 @@
 
 
-## [0.3.8](https://github.com/JergusKacmar/release-it-showcase/compare/0.3.7...0.3.8) (2022-04-12)
+# [0.4.0](https://github.com/JergusKacmar/release-it-showcase/compare/0.3.8...0.4.0) (2022-04-12)
+
+
+### Features
+
+* test 3 ([4863b90](https://github.com/JergusKacmar/release-it-showcase/commit/4863b90adad2bf73076c65d40110ea0513d99996))## [0.3.8](https://github.com/JergusKacmar/release-it-showcase/compare/0.3.7...0.3.8) (2022-04-12)
 
 
 ### Performance Improvements
