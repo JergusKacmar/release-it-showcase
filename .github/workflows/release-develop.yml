@@ -19,6 +19,11 @@ jobs:
           persist-credentials: false
       - name: git config
         run: |
+          git config --local --name-only --get-regexp core\.sshCommand
+          submodule foreach --recursive git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :
+          git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+          git submodule foreach --recursive git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :
+          git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ${{ secrets.GITHUB_TOKEN }}
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
       - run: npm install
