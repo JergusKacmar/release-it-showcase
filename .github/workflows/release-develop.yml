@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: "16.x"
-      - run: npm install
+      - run: npm ci release-it @release-it/conventional-changelog
       - name: git config
         run: |
           git config user.name "${GITHUB_ACTOR}"
