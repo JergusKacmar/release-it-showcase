@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = require("fs");
 
 const commitTemplate = fs.readFileSync("changelog.hbs").toString();
 
@@ -36,6 +36,19 @@ module.exports = {
       writerOpts: {
         commitPartial: commitTemplate,
       },
+      types: [
+        { type: "feat", name: "Features" },
+        { type: "fix", name: "Bug Fixes" },
+        { type: "perf", name: "Performance Improvements" },
+        { type: "revert", name: "Reverts" },
+        { type: "docs", name: "Documentation", hidden: true },
+        { type: "style", name: "Styles", hidden: true },
+        { type: "chore", name: "Miscellaneous Chores", hidden: true },
+        { type: "refactor", name: "Code Refactoring", hidden: true },
+        { type: "test", name: "Tests", hidden: true },
+        { type: "build", name: "Build System", hidden: true },
+        { type: "ci", name: "Continuous Integration", hidden: true },
+      ],
     },
   },
 };
