@@ -1,6 +1,16 @@
 
 
-## [0.4.3](https://github.com/JergusKacmar/release-it-showcase/compare/0.4.2...0.4.3) (2022-04-12)## [0.4.2](https://github.com/JergusKacmar/release-it-showcase/compare/0.4.1...0.4.2) (2022-04-12)## [0.4.1](https://github.com/JergusKacmar/release-it-showcase/compare/0.4.0...0.4.1) (2022-04-12)# [0.4.0](https://github.com/JergusKacmar/release-it-showcase/compare/0.3.8...0.4.0) (2022-04-12)
+# [1.0.0](https://github.com/JergusKacmar/release-it-showcase/compare/0.4.3...1.0.0) (2022-04-12)
+
+
+### chore
+
+* test ([ae4d64a](https://github.com/JergusKacmar/release-it-showcase/commit/ae4d64a87077869a268c34d85e60c614eaa8d802))
+
+
+### BREAKING CHANGES
+
+*## [0.4.3](https://github.com/JergusKacmar/release-it-showcase/compare/0.4.2...0.4.3) (2022-04-12)## [0.4.2](https://github.com/JergusKacmar/release-it-showcase/compare/0.4.1...0.4.2) (2022-04-12)## [0.4.1](https://github.com/JergusKacmar/release-it-showcase/compare/0.4.0...0.4.1) (2022-04-12)# [0.4.0](https://github.com/JergusKacmar/release-it-showcase/compare/0.3.8...0.4.0) (2022-04-12)
 
 
 ### Features
