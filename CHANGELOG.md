@@ -1,6 +1,11 @@
 
 
-# [3.0.0](https://github.com/JergusKacmar/release-it-showcase/compare/2.4.1...3.0.0) (2022-04-12)
+# [3.1.0](https://github.com/JergusKacmar/release-it-showcase/compare/3.0.0...3.1.0) (2022-04-12)
+
+
+### Features
+
+* flow ([74c743f](https://github.com/JergusKacmar/release-it-showcase/commit/74c743fd97fb442993045ff151e0d81fb57f3351))# [3.0.0](https://github.com/JergusKacmar/release-it-showcase/compare/2.4.1...3.0.0) (2022-04-12)
 
 
 ### Features
