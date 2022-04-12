@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/JergusKacmar/release-it-showcase#readme",
   "devDependencies": {
+    "@release-it/conventional-changelog": "^4.2.2",
     "auto-changelog": "^2.4.0",
     "release-it": "^14.14.2"
   }
