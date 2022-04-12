@@ -33,9 +33,9 @@ module.exports = {
     "@release-it/conventional-changelog": {
       preset: "angular",
       infile: "CHANGELOG.md",
-      writerOpts: {
+      /* writerOpts: {
         commitPartial: commitTemplate,
-      },
+      }, */
       types: [
         { type: "feat", name: "Features" },
         { type: "fix", name: "Bug Fixes" },
