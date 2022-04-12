@@ -1,6 +1,18 @@
 
 
-## [2.4.1](https://github.com/JergusKacmar/release-it-showcase/compare/2.4.0...2.4.1) (2022-04-12)# [2.4.0](https://github.com/JergusKacmar/release-it-showcase/compare/2.3.0...2.4.0) (2022-04-12)
+# [3.0.0](https://github.com/JergusKacmar/release-it-showcase/compare/2.4.1...3.0.0) (2022-04-12)
+
+
+### Features
+
+* 1 ([99d3aec](https://github.com/JergusKacmar/release-it-showcase/commit/99d3aece8689f5af61df248598e50012b30cf403))
+
+
+### BREAKING CHANGES
+
+* whatever
+style: 1
+fix: 1.1## [2.4.1](https://github.com/JergusKacmar/release-it-showcase/compare/2.4.0...2.4.1) (2022-04-12)# [2.4.0](https://github.com/JergusKacmar/release-it-showcase/compare/2.3.0...2.4.0) (2022-04-12)
 
 
 ### Features
