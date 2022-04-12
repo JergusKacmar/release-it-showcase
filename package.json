@@ -21,5 +21,8 @@
     "@release-it/conventional-changelog": "^4.2.2",
     "auto-changelog": "^2.4.0",
     "release-it": "^14.14.2"
+  },
+  "optionalDependencies": {
+    "@cloudtalk/test-automation": "git+https://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:x-oauth-basic@github.com/CloudTalk-io/test-automation.git"
   }
 }

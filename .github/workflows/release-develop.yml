@@ -15,15 +15,12 @@ jobs:
           node-version: "16.x"
       - uses: actions/checkout@v2
         with:
-          persist-credentials: false
+          fetch-depth: 0
       - name: git config
         run: |
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-      - run: npm install
-      - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
+      - run: npm ci --no-optional
       - run: npm run release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
