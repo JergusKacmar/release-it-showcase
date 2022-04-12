@@ -20,8 +20,8 @@ jobs:
         run: |
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          git config --global url."https://${{ github.token }}@github.com/".insteadOf ssh://git@github.com/
-      - run: npm install release-it
+          git config http.https://github.com/.extraheader AUTHORIZATION: basic "${github.token}"
+      - run: npm install
       - run: npm run release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
