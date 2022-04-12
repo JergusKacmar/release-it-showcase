@@ -1,8 +1,10 @@
+const commitTemplate = fs.readFileSync("changelog.hbs").toString();
+
 module.exports = {
   hooks: {
     /* 'before:init': ['npm test'], */
     // no tests yet, this command would fail
-    "after:bump": ["npx conventional-changelog -p"],
+    /* "after:bump": ["npx conventional-changelog -p"], */
   },
   git: {
     /* requireBranch: 'main', */
@@ -14,8 +16,8 @@ module.exports = {
     tagAnnotation: "${version}",
     push: true,
     requireCommits: true,
-    changelog:
-      "npx conventional-changelog --stdout --commit-limit false -u --template ./changelog.hbs",
+    /* changelog:
+      "npx conventional-changelog --stdout --commit-limit false -u --template ./changelog.hbs", */
   },
   github: {
     release: true,
@@ -29,6 +31,9 @@ module.exports = {
     "@release-it/conventional-changelog": {
       preset: "angular",
       infile: "CHANGELOG.md",
+      writerOpts: {
+        commitPartial: commitTemplate,
+      },
     },
   },
 };
