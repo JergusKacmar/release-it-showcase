@@ -2,6 +2,7 @@ yolo{{#each releases}}
   {{#if @first}}
     {{#each merges}}
       - {{{message}}}{{#if href}}yolo [`#{{id}}`]({{href}}){{/if}}
+      - {{{message}}}{{#if href}}yolo [`#{{id}}`]({{href}}){{/if}}
     {{/each}}
     {{#each fixes}}
       - {{{commit.subject}}}{{#each fixes}}yolo{{#if href}} [`#{{id}}`]({{href}}){{/if}}{{/each}}
