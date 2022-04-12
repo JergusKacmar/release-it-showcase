@@ -1,6 +1,11 @@
 
 
-## [1.0.1](https://github.com/JergusKacmar/release-it-showcase/compare/1.0.0...1.0.1) (2022-04-12)
+## [1.0.2](https://github.com/JergusKacmar/release-it-showcase/compare/1.0.1...1.0.2) (2022-04-12)
+
+
+### Bug Fixes
+
+* config ([b2cbd16](https://github.com/JergusKacmar/release-it-showcase/commit/b2cbd16fa025a8cb899d0310b37ed7d16c0009a8))## [1.0.1](https://github.com/JergusKacmar/release-it-showcase/compare/1.0.0...1.0.1) (2022-04-12)
 
 
 ### Bug Fixes
