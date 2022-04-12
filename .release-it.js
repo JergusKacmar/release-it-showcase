@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 const commitTemplate = fs.readFileSync("changelog.hbs").toString();
 
 module.exports = {
