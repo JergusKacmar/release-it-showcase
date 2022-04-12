@@ -1,6 +1,17 @@
 
 
-# [3.1.0](https://github.com/JergusKacmar/release-it-showcase/compare/3.0.0...3.1.0) (2022-04-12)
+# [3.2.0](https://github.com/JergusKacmar/release-it-showcase/compare/3.1.0...3.2.0) (2022-04-12)
+
+
+### Features
+
+* asfas ([9abeeda](https://github.com/JergusKacmar/release-it-showcase/commit/9abeeda63531540df37c84edafbab1fd7c998af4))
+* sfafasfa ([e1f2283](https://github.com/JergusKacmar/release-it-showcase/commit/e1f228389dc31b54c05b30a10370fdab48255e25))
+
+
+### Performance Improvements
+
+* change order of ops ([e54e090](https://github.com/JergusKacmar/release-it-showcase/commit/e54e090ad7df07de292906bf51cb6d6c0f11c481))# [3.1.0](https://github.com/JergusKacmar/release-it-showcase/compare/3.0.0...3.1.0) (2022-04-12)
 
 
 ### Features
