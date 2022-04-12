@@ -1,6 +1,6 @@
 
 
-## [0.4.1](https://github.com/JergusKacmar/release-it-showcase/compare/0.4.0...0.4.1) (2022-04-12)# [0.4.0](https://github.com/JergusKacmar/release-it-showcase/compare/0.3.8...0.4.0) (2022-04-12)
+## [0.4.2](https://github.com/JergusKacmar/release-it-showcase/compare/0.4.1...0.4.2) (2022-04-12)## [0.4.1](https://github.com/JergusKacmar/release-it-showcase/compare/0.4.0...0.4.1) (2022-04-12)# [0.4.0](https://github.com/JergusKacmar/release-it-showcase/compare/0.3.8...0.4.0) (2022-04-12)
 
 
 ### Features
