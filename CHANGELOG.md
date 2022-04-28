@@ -1,6 +1,19 @@
 
 
-# [3.2.0](https://github.com/JergusKacmar/release-it-showcase/compare/3.1.0...3.2.0) (2022-04-12)
+# [3.3.0](https://github.com/JergusKacmar/release-it-showcase/compare/3.3.1...3.3.0) (2022-04-28)
+
+
+### Bug Fixes
+
+* new token ([1abf9e1](https://github.com/JergusKacmar/release-it-showcase/commit/1abf9e1854a669d996c97a793e3fe44750745df4))
+
+
+### Features
+
+* change token ([a86cf74](https://github.com/JergusKacmar/release-it-showcase/commit/a86cf74d67f9221bde54a6d29d389500ad494b7c))
+* skip npm checks ([d8f4c6e](https://github.com/JergusKacmar/release-it-showcase/commit/d8f4c6e3482b3f4caa26b5176889881cd0fb9a1c))
+* try npm publish ([fdee607](https://github.com/JergusKacmar/release-it-showcase/commit/fdee607c31d4442771243e1ca2d9be8b5e03a690))
+* use another action ([8d0d0cb](https://github.com/JergusKacmar/release-it-showcase/commit/8d0d0cbff2402f3cdfd3e3f628dc1377987392a2))# [3.2.0](https://github.com/JergusKacmar/release-it-showcase/compare/3.1.0...3.2.0) (2022-04-12)
 
 
 ### Features
