@@ -1,6 +1,11 @@
 
 
-# [3.4.0](https://github.com/JergusKacmar/release-it-showcase/compare/3.3.0...3.4.0) (2022-04-28)
+# [3.5.0](https://github.com/JergusKacmar/release-it-showcase/compare/3.4.0...3.5.0) (2022-04-28)
+
+
+### Features
+
+* remove package ([c41dbcb](https://github.com/JergusKacmar/release-it-showcase/commit/c41dbcb9f960654a2a704891ac6694046235d15e))# [3.4.0](https://github.com/JergusKacmar/release-it-showcase/compare/3.3.0...3.4.0) (2022-04-28)
 
 
 ### Features
