@@ -27,7 +27,7 @@ module.exports = {
     assets: ["dist/*.zip"],
   },
   npm: {
-    publish: false,
+    publish: true,
   },
   plugins: {
     "@release-it/conventional-changelog": {
