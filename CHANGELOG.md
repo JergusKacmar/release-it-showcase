@@ -1,6 +1,11 @@
 
 
-# [3.5.0](https://github.com/JergusKacmar/release-it-showcase/compare/3.4.0...3.5.0) (2022-04-28)
+# [3.6.0](https://github.com/JergusKacmar/release-it-showcase/compare/3.5.0...3.6.0) (2022-04-29)
+
+
+### Features
+
+* adding another log ([b845a18](https://github.com/JergusKacmar/release-it-showcase/commit/b845a18799ff1d5668090965fa29354c85d8756f))# [3.5.0](https://github.com/JergusKacmar/release-it-showcase/compare/3.4.0...3.5.0) (2022-04-28)
 
 
 ### Features
